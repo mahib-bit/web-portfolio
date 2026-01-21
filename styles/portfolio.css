@@ -1,5 +1,5 @@
 
-.ban-get, .open-sans-font {
+.comment, .ban-get, .open-sans-font {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -12,6 +12,13 @@ span{
 }
 
 /* common styles */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3;
 }
@@ -20,7 +27,7 @@ span{
 }
 .button-primary{
     background-color: #FD6E0A;
-    width: 150px;
+    width: 200px;
     height: 64px;
     font-weight: bold;
     font-size: 20px;
@@ -100,6 +107,8 @@ nav ul{
 .section-description{
     font-size: 18px;
     color: #757575;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 /* main styles */
 main{
@@ -111,7 +120,6 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-list{
     display: flex;
@@ -128,5 +136,71 @@ main{
 }
 .field-about{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+}
+/* skills section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+}
+.experience-sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume hr{
+    margin: 30px 5px;
+    color:rgba(209, 209, 209, 1)
+}
+.resume button{
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+/* footer style */
+footer{
+    padding: 100px 200px;
+    display: flex;
+    gap: 200px;
+}   
+footer input{
+    border-radius: 5px;
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    padding:10px 20px;
+    font-size: 18px;
+    display: block;
+}
+footer textarea{
+    border-radius: 5px;
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+    padding:10px 20px;
+    font-size: 18px;
+    display: block;
 }
