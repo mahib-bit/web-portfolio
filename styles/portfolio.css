@@ -208,10 +208,6 @@ main{
     display: block;
 }
 /* responsive styles */
-    .hide{
-        display: none;
-    }
-
 @media screen and (max-width: 576px){
     .skills-container{
         flex-direction: column;
@@ -234,5 +230,52 @@ main{
     }
     .about-list{
         flex-direction: column;
+    }
+    .banner-description{
+        margin-bottom: 50px;
+    }
+    .button-primary{
+        margin-bottom: 5px;
+    }
+    .head{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner img{
+        width: 100%;
+        height: auto;
+    }
+    nav, nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/*  tablet media query */
+@media screen and (min-width: 577px) and (max-width: 1072px){
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .foot input, .foot textarea{
+        width: calc(100%-5000px);
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .about{
+        padding: 0px;
+    }
+    nav{
+        flex-direction: column
+    }
+    .foot{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .footer-column{
+        margin-bottom: -100px;
     }
 }
